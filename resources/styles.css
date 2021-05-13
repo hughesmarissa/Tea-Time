@@ -83,5 +83,34 @@ header {
      font-weight: bold;
      text-align: center;
    }
+
+   /*locations section */
+
+ .flex-container .locations {
+
+}
+
+#locations {
+  height: 500px;
+  background-image: url("./images/img-locations-background.jpeg");
+  padding-top: 70px;  /*where did this value come from? */
+}
+
+#locations .flex-container {
+  width: 1100px;  /* where did this value come from? */
+  margin: auto;
+}
+
+.location {
+  margin: 5px 20px;
+  padding: 10px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 1.0;
+}
+
   
   
